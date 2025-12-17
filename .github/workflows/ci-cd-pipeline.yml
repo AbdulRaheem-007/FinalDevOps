@@ -189,8 +189,8 @@ jobs:
       - name: Pull Latest Images
         run: |
           echo "Pulling latest Docker images..."
-          docker pull muhammadowais11/sampletest-backend:latest
-          docker pull muhammadowais11/sampletest-frontend:latest
+          docker pull abdulraheem02/sampletest-backend:latest
+          docker pull abdulraheem02/sampletest-frontend:latest
       
       - name: Deploy with Docker Compose
         env:
